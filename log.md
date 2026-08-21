@@ -3,6 +3,10 @@ title: Work Log
 description: Chronological record of substantive changes to this knowledge base.
 type: Work Log
 ---
+## 2026-08-21: Added a OpenKnowledge link
+
+- Added a link for readers to open the wiki in OpenKnowledge.
+
 ## 2026-08-20: Converged an independent audit loop
 
 - Ran eleven rounds of cold audit against this wiki, each by a reviewer with no knowledge of the previous rounds' conclusions, fixing what each found and re-auditing. Ten rounds produced changes; the last three found nothing blocking. Blocking findings fell from 101 wrong count entries in the first round to none.

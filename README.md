@@ -9,6 +9,10 @@ tags:
   - odyssey
   - example
 ---
+[Read this wiki using OpenKnowledge!](https://openknowledge.ai/d/AWh0dHBzOi8vZ2l0aHViLmNvbS9pbmtlZXAvb2R5c3NleS1va2Ytd2lraS9ibG9iL21haW4vUkVBRE1FLm1k)
+
+---
+
 This repository is a public example of using **OpenKnowledge** and the **Open Knowledge Format (OKF)** to build a rich, durable knowledge base around a substantial subject.
 
 The subject is Homer’s *Odyssey*. The wiki connects all twenty-four books with character guides, themes, historical and poetic context, translations, adaptations, scholarship, and locally preserved source records.
