@@ -1,0 +1,24 @@
+# Seeded by OpenKnowledge when this project was created. Edit freely.
+.DS_Store
+.claude/skills/open-knowledge/
+.cursor/skills/open-knowledge/
+.codex/skills/open-knowledge/
+.github/skills/open-knowledge/
+.opencode/skills/open-knowledge/
+.pi/skills/open-knowledge/
+
+# The `open-knowledge` skill is machine-installed and refreshes from upstream,
+# so it stays out of version control. The `okf-knowledge-base` skill IS
+# committed on purpose: it is the Open Knowledge Format contract this example
+# demonstrates, and cloners should get it without a separate install step.
+
+# Per-machine editor state. Contains the MCP pre-approval; committing it would
+# remove the approval prompt for everyone who clones this repo.
+.claude/settings.local.json
+.cursor/settings.local.json
+
+# Common footguns. Nothing here is used by this wiki, but the repository is
+# published as an example others clone and build on.
+.env
+.env.*
+node_modules/

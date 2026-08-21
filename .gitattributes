@@ -1,0 +1,5 @@
+# BEGIN OpenKnowledge generated indexes
+# Required while Open Knowledge maintains generated index.md files.
+/index.md merge=union
+/**/index.md merge=union
+# END OpenKnowledge generated indexes

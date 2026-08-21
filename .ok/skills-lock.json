@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "skills": {
+    "okf-knowledge-base": {
+      "source": "inkeep/open-knowledge-skills",
+      "skill": "okf-knowledge-base",
+      "contentHash": "3a3041f5799d23710228b3e5da05bb6dcbc14b61c2645351b9fe597737389884",
+      "importedAt": "2026-08-18T21:14:09.876Z"
+    }
+  }
+}

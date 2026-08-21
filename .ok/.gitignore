@@ -1,0 +1,27 @@
+# .ok/local/ holds per-machine runtime state. Anything inside is
+# machine-local and never committed. New runtime files (caches, locks,
+# manifests, telemetry, error logs) are auto-ignored — no edit needed here.
+local/
+
+# .ok/worktrees/ holds git worktrees created from the desktop worktree
+# selector — per-machine checkouts, never committed (WORKTREES_PARENT_DIR in
+# @inkeep/open-knowledge-core). Worktree creation also appends this path to
+# .git/info/exclude so projects whose committed rule predates it stay clean.
+worktrees/
+
+# Per-machine runtime state at the .ok/ root. Contains PII (principal email,
+# UUID), hostnames, and absolute filesystem paths — never commit. The only
+# file at .ok/ root that SHOULD be committed is `config.yml` (project
+# configuration), which is explicitly NOT in this ignore list.
+principal.json
+state.json
+server.lock
+ui.lock
+sync-state.json
+last-spawn-error.log
+
+# .ok/okf/ holds the OKF lint plugin's schemas, rendered from the plugin on
+# boot so agents can read the contract they are told governs a document. A
+# generated artifact — regenerated whenever the plugin's copy changes, and
+# never read back — so it is not committed.
+okf/
