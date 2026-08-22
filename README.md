@@ -12,7 +12,9 @@ tags:
 
 This repository is a public example of a wiki leveraging the [**Open Knowledge Format (OKF)**](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md) to build a durable knowledge base around a rich subject like Homer's Odyssey. The wiki connects all twenty-four books with character guides, themes, historical and poetic context, translations, adaptations, scholarship, and locally preserved source records.
 
-The wiki was built using the [OKF Plugin](https://openknowledge.ai/docs/plugins/okf) for the OpenKnowledge app. To open the wiki using the OpenKnowledge app, use this [link](https://openknowledge.ai/d/AWh0dHBzOi8vZ2l0aHViLmNvbS9pbmtlZXAvb2R5c3NleS1va2Ytd2lraS9ibG9iL21haW4vUkVBRE1FLm1k).
+The wiki was built using the [**OKF Plugin**](https://openknowledge.ai/docs/plugins/okf) for the [**OpenKnowledge app**](https://openknowledge.ai/).
+
+To open the wiki using the OpenKnowledge app directly, use this share [link](https://openknowledge.ai/d/AWh0dHBzOi8vZ2l0aHViLmNvbS9pbmtlZXAvb2R5c3NleS1va2Ytd2lraS9ibG9iL21haW4vUkVBRE1FLm1k).
 
 > Note: OpenKnowledge is a markdown editing app available for Mac, Linux and Windows and has no affiliation with or ownership over Google's Open Knowledge Format.
 
