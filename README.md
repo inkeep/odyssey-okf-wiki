@@ -9,13 +9,13 @@ tags:
   - odyssey
   - example
 ---
-[Read this wiki using OpenKnowledge!](https://openknowledge.ai/d/AWh0dHBzOi8vZ2l0aHViLmNvbS9pbmtlZXAvb2R5c3NleS1va2Ytd2lraS9ibG9iL21haW4vUkVBRE1FLm1k)
 
----
+This repository is a public example of a wiki leveraging the [**Open Knowledge Format (OKF)**](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md) to build a durable knowledge base around a rich subject like Homer's Odyssey. The wiki connects all twenty-four books with character guides, themes, historical and poetic context, translations, adaptations, scholarship, and locally preserved source records.
 
-This repository is a public example of using **OpenKnowledge** and the **Open Knowledge Format (OKF)** to build a rich, durable knowledge base around a substantial subject.
+The wiki was built using the [OKF Plugin](https://openknowledge.ai/docs/plugins/okf) for the OpenKnowledge app. To open the wiki using the OpenKnowledge app, use this [link](https://openknowledge.ai/d/AWh0dHBzOi8vZ2l0aHViLmNvbS9pbmtlZXAvb2R5c3NleS1va2Ytd2lraS9ibG9iL21haW4vUkVBRE1FLm1k).
 
-The subject is Homer’s *Odyssey*. The wiki connects all twenty-four books with character guides, themes, historical and poetic context, translations, adaptations, scholarship, and locally preserved source records.
+> Note: OpenKnowledge is a markdown editing app available for Mac, Linux and Windows and has no affiliation with or ownership over Google's Open Knowledge Format.
+
 
 ## Start here
 
@@ -36,7 +36,7 @@ The collection is designed to remain readable as ordinary Markdown while gaining
 
 ## How this wiki was written
 
-The editorial content here was drafted by an AI agent working through OpenKnowledge, then verified against the preserved sources in this repository. Most pages record that origin in their own frontmatter under a `generated:` key, so you can see per document what produced it and when.
+The editorial content here was drafted by an AI agent working using OpenKnowledge OKF plugin, which leverages linting, deterministic rules and automations, a skill and MCP to help agents stay conformant with the spec. Most pages record that origin in their own frontmatter under a `generated:` key, so you can see per document what produced it and when.
 
 That provenance is the point of the example rather than a disclaimer on it: agent-authored knowledge is only trustworthy when every claim resolves to a source a reader can open, and the [verification method](scholarship/verification-method.md) documents how claims here were checked. Treat the pages as a well-sourced reading companion, not as peer-reviewed scholarship — where a page matters to your own work, follow its citation to the underlying text.
 
